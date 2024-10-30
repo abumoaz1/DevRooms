@@ -1,0 +1,77 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Environment files
+.env
+
+# Database files
+*.sqlite3
+
+# Django migrations
+**/migrations/
+
+# Media and static files
+staticfiles/
+media/
+static/images/
+
+# Django compiled files
+*.mo
+*.pot
+
+# VS Code or other editor-specific files (optional, if using VS Code)
+.vscode/
+
+# Virtual environment
+venv/
+env/
+
+# Logs
+*.log
+
+# macOS system files
+.DS_Store
+
+# JetBrains IDEs
+.idea/
+
+# Byte-compiled / optimized / DLL files
+*.pyc
+*.pyo
+*.pyd
+
+# Test coverage reports
+htmlcov/
+.tox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# PyInstaller
+*.manifest
+*.spec
+
+# CELERY
+celerybeat-schedule
+celerybeat.pid
+
+# Django stuff:
+local_settings.py
+db.sqlite3
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
